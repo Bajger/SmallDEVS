@@ -7,5 +7,8 @@ SmallDEVS originally implemented by Department of Intelligent Systems on FIT BUT
 - Install Pharo latest stable version (Pharo 11)
 - run in Playground:
 ```
-TODO
+Metacello new
+ baseline: 'SmallDEVS';
+ repository: 'github://bajger/SmallDEVS:main/src';
+ load
 ```
