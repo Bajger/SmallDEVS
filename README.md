@@ -4,7 +4,7 @@ SmallDEVS originally implemented by Department of Intelligent Systems on FIT BUT
 
 
 ## How to load the project
-- Install Pharo latest stable version (Pharo 11)
+- Install [Pharo latest stable version](https://pharo.org/download) (Pharo 11) e.g. from command line.
 - run in Playground:
 ```
 Metacello new
