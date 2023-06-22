@@ -1,4 +1,45 @@
-
+Package *SmallDEVS-MyRepository depends on the following classes:
+  TranscriptStream
+  PrototypeObject
+You must resolve these dependencies before you will be able to load these definitions: 
+  PrototypeObject>>#eq:
+  PrototypeObject>>#excludedSlots
+  PrototypeObject>>#sixxOn:name:indent:context:
+  PrototypeObject>>#sixxType
+  PrototypeObject>>#storeOn:
+  PrototypeObjectForMyRepository
+  PrototypeObjectForMyRepository>>#actionSelector
+  PrototypeObjectForMyRepository>>#addDelegate:
+  PrototypeObjectForMyRepository>>#addDelegate:withName:
+  PrototypeObjectForMyRepository>>#addExistingDelegate
+  PrototypeObjectForMyRepository>>#componentNames
+  PrototypeObjectForMyRepository>>#copyToClipboard
+  PrototypeObjectForMyRepository>>#cutAction
+  PrototypeObjectForMyRepository>>#deleteAction
+  PrototypeObjectForMyRepository>>#fileOutAction
+  PrototypeObjectForMyRepository>>#fullName
+  PrototypeObjectForMyRepository>>#getMenu
+  PrototypeObjectForMyRepository>>#name
+  PrototypeObjectForMyRepository>>#name:
+  PrototypeObjectForMyRepository>>#nameInSimSpace
+  PrototypeObjectForMyRepository>>#nameInSimSpace:
+  PrototypeObjectForMyRepository>>#parent
+  PrototypeObjectForMyRepository>>#parent:
+  PrototypeObjectForMyRepository>>#parentInSimSpace
+  PrototypeObjectForMyRepository>>#parentInSimSpace:
+  PrototypeObjectForMyRepository>>#pasteDelegate
+  PrototypeObjectForMyRepository>>#pathName
+  PrototypeObjectForMyRepository>>#renameAction
+  PrototypeObjectForMyRepository>>#species
+  PrototypeObjectForSimulation
+  PrototypeObjectWithSources
+  SerializablePrototypeObject
+  SerializablePrototypeObject>>#excludedSlots
+  SerializablePrototypeObject>>#getMethodID:
+  SerializablePrototypeObject>>#privatePostClone
+  SerializablePrototypeObject>>#sixxOn:name:indent:context:
+  SerializablePrototypeObject>>#species
+  TranscriptStream>>#nextPutAll:
 
 
 
