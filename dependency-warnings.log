@@ -1,0 +1,29 @@
+
+
+
+
+Package *SmallDEVS-Core depends on the following classes:
+  PrototypeObjectForMyRepository
+  PrototypeObjectWithSources
+You must resolve these dependencies before you will be able to load these definitions: 
+  AtomicDEVSTrait
+  AtomicDEVSTrait>>#new
+  AtomicDEVSTrait>>#initialize
+  AtomicDEVSTrait>>#species
+  PrototypeObjectWithSharedAtomicBehavior
+  PrototypeObjectWithSharedAtomicBehavior>>#elapsed
+  PrototypeObjectWithSharedAtomicBehavior>>#name
+  PrototypeObjectWithSharedAtomicBehavior>>#name:
+  PrototypeObjectWithSharedAtomicBehavior>>#parent
+  PrototypeObjectWithSharedAtomicBehavior>>#parent:
+  PrototypeObjectWithSharedAtomicBehavior>>#peekFrom:
+  PrototypeObjectWithSharedAtomicBehavior>>#poke:to:
+  PrototypeObjectWithSharedAtomicBehavior>>#remaining
+  PrototypeObjectWithSharedAtomicBehavior>>#signalStateEvent
+  PrototypeObjectWithSharedAtomicBehavior>>#species
+  PrototypeObjectWithSharedCoupledBehavior
+  PrototypeObjectWithSharedCoupledBehavior>>#name
+  PrototypeObjectWithSharedCoupledBehavior>>#name:
+  PrototypeObjectWithSharedCoupledBehavior>>#parent
+  PrototypeObjectWithSharedCoupledBehavior>>#parent:
+  PrototypeObjectWithSharedCoupledBehavior>>#species
