@@ -12,7 +12,7 @@ BaselineOfSmallDEVS >> baseline: spec [
 		self setupExternalDependencies: spec.
 		spec 
 			package: 'SmallDEVS-Repository';
-			package: 'SmallDEVS-Core' with: [spec requires: #('SmallDEVS-Repository')];
+			package: 'SmallDEVS-Core' with: [spec requires: #('SmallDEVS-Repository' 'Talents')];
 			package: 'SmallDEVS-Tests' with: [spec requires: #('SmallDEVS-Core')];
 			package: 'SmallDEVS-MyRepository-old';
 			package: 'SmallDEVS-Core-old' with: [spec requires: #('SmallDEVS-MyRepository-old')].
