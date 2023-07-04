@@ -15,11 +15,12 @@ BaselineOfSmallDEVS >> baseline: spec [
 			package: 'SmallDEVS-Core' with: [spec requires: #('SmallDEVS-Repository' 'Talents')];
 			package: 'SmallDEVS-Tests' with: [spec requires: #('SmallDEVS-Core')];
 			package: 'SmallDEVS-MyRepository-old';
-			package: 'SmallDEVS-Core-old' with: [spec requires: #('SmallDEVS-MyRepository-old')].
+			package: 'SmallDEVS-Core-old' with: [spec requires: #('SmallDEVS-MyRepository-old')];
+			package: 'SmallDEVS-Talents' with: [ spec requires: #('SmallDEVS-Core' 'SmallDEVS-Core-Old' 'Talents') ].
 		spec 
 			group: 'Core' with: #('SmallDEVS-Core' 'SmallDEVS-Core-old');
 			group: 'Tests' with: #('SmallDEVS-Tests');
-			group: 'default' with: #('Core' 'Tests') ]
+			group: 'default' with: #('Core' 'Tests' 'Talents') ]
 ]
 
 { #category : #baselines }
